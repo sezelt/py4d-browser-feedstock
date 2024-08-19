@@ -1,13 +1,13 @@
 {% set name = "py4D-browser" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/py4D_browser-{{ version }}.tar.gz
-  sha256: 595e3afafbe2db704bb4a93b9781b723f7e93d27315689337c13955f8718c00a
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/py4d_browser-{{ version }}.tar.gz
+  sha256: a1e481e83b9ed3f619088629033819449146f3725309f77f2770253c88b4f67a
 
 build:
   entry_points:
